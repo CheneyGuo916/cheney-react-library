@@ -1,0 +1,30 @@
+{
+  "name": "cheney-react-library",
+  "version": "1.0.1",
+  "main": "lib/bundle.js",
+  "author": "Cheney <cheneyg916@gmail.com> (https://github.com/CheneyGuo916)",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn run rollup -c",
+    "start": "yarn run rollup -c -w"
+  },
+  "description": "cheney's first react library",
+  "keywords": [
+    "react",
+    "react library",
+    "react switch",
+    "switch"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "rollup": "^2.39.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
+
+
+
+
+
